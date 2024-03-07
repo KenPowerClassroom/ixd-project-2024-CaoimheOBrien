@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+article, header, p, main, nav, section{
+    display: block;
+
+}
+
+html, body, h1, h2, h3, ul, a, p,button, 
+article, aside,footer, header, main, nav, section{
+    padding: 1px;
+    margin: 1px;
+    font-family: 'Georgia';
+}
+
+h2{
