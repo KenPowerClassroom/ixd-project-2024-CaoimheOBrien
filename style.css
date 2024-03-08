@@ -5,6 +5,7 @@
 body{
     display: inline-flexbox;
     margin-top: 70px;
+    font-family: 'Arial';
 }
 
 h1, h2, h3, p,
@@ -13,7 +14,7 @@ article,footer, header, main, section{
     margin-top: 5px;
     margin-left: 360px;
     width: 75%; 
-    font-family: 'Sans-serif';
+    
     display:inline-block
 }
 
@@ -44,6 +45,7 @@ li{
 a{
     padding: 15px; 
     border: 10px solid rgb(255,255,255);
+    border-left: 0px;
     color: #000000;
     text-align: center;
     background-color: rgb(196, 196, 196);
