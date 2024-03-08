@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 
-html{
-    width: 1600px; 
-    height: 200px;
-}
 
+body{
+    display: inline-flexbox;
+    margin-top: 70px;
+}
 
 h1, h2, h3, p,
 article,footer, header, main, section{
     padding: 20 px;
     margin-top: 5px;
-    margin-left: 360px; 
-    width: 860px; 
+    margin-left: 360px;
+    width: 75%; 
     font-family: 'Sans-serif';
+    display:inline-block
 }
 
 h1{
@@ -27,25 +28,25 @@ h2{
 
 ul{
     list-style-type: none;
-    margin: 0px; 
-    padding: 8px 16px; 
-    width: 300px; 
-    color:#666666;
+    padding: 0px; 
+    width: 20%;
+    position: fixed;
+    overflow: auto;  
+    padding-left: 0px; 
 }
 
 li{
    display: grid;
     font-size: 25px;
     font-variant: small-caps;
-    text-decoration: none;
-    background-color: #b9b9b9;    
 }
 
 a{
-    display: block;
-    margin: 10px; 
-    padding: 20px; 
-    background-color: #b9b9b9;
+    padding: 15px; 
+    border: 10px solid rgb(255,255,255);
     color: #000000;
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    text-decoration: none;
 
 }
