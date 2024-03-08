@@ -1,15 +1,51 @@
 @charset "UTF-8";
 
-article, header, p, main, nav, section{
-    display: block;
 
+html{
+    width: 1600px; 
+    height: 200px;
 }
 
-html, body, h1, h2, h3, ul, a, p,button, 
-article, aside,footer, header, main, nav, section{
-    padding: 1px;
-    margin: 1px;
-    font-family: 'Georgia';
+
+h1, h2, h3, p,
+article,footer, header, main, section{
+    padding: 20 px;
+    margin-top: 5px;
+    margin-left: 360px; 
+    width: 860px; 
+    font-family: 'Sans-serif';
 }
+
+h1{
+    font-size: 40px;
+} 
 
 h2{
+    font-size: 30px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0px; 
+    padding: 8px 16px; 
+    width: 300px; 
+    color:#666666;
+}
+
+li{
+   display: grid;
+    font-size: 25px;
+    font-variant: small-caps;
+    text-decoration: none;
+    background-color: #b9b9b9;    
+}
+
+a{
+    display: block;
+    margin: 10px; 
+    padding: 20px; 
+    background-color: #b9b9b9;
+    color: #000000;
+
+}
