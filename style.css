@@ -12,13 +12,14 @@ h1, h2, h3, p,
 article,footer, header, main, section{
     padding: 20 px;
     margin-top: 5px;
-    margin-left: 360px;
+    margin-left: 25%;
     width: 75%; 
     
     display:inline-block
 }
 
 h1{
+
     font-size: 40px;
 } 
 
@@ -31,8 +32,8 @@ ul{
     list-style-type: none;
     padding: 0px; 
     width: 20%;
-    position: fixed;
     overflow: auto;  
+    position:absolute; 
     padding-left: 0px; 
 }
 
@@ -50,5 +51,49 @@ a{
     text-align: center;
     background-color: rgb(196, 196, 196);
     text-decoration: none;
+}
 
+table{
+    margin-left: 25%;
+    width: 60%;
+    display: inline-flex; 
+    border-collapse: collapse;
+}
+
+table, th, td{
+    padding: 8px;
+     
+}
+
+.table_heading
+{
+    text-align: center;
+}
+
+.Question{
+    vertical-align: top;
+    text-align: left;
+    text-decoration: none;
+}
+
+
+th, td{
+    border: 1px solid black; 
+}
+
+
+
+#Great{
+    background-color: rgb(139, 197, 139);
+    vertical-align: top;
+}
+
+#Mid{
+    background-color: rgb(234, 222, 162);
+    vertical-align: top;
+}
+
+#Bad{
+    background-color: rgb(197, 146, 139);
+    vertical-align: top;
 }
