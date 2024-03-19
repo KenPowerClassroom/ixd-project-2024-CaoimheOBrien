@@ -9,7 +9,7 @@ body{
 }
 
 h1, h2, h3, p,
-article,footer, header, main, section{
+article,footer, header, main, img, section{
     padding: 20 px;
     margin-top: 5px;
     margin-left: 25%;
@@ -96,4 +96,9 @@ th, td{
 #Bad{
     background-color: rgb(197, 146, 139);
     vertical-align: top;
+}
+
+.img{
+    size: 20%; 
+    padding: 5px; 
 }
